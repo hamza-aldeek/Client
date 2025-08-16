@@ -8,7 +8,7 @@ import { Header } from "./header/header";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Main, Footer, MobileMenu, Header],
+  imports: [RouterOutlet, Footer, MobileMenu, Header],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
